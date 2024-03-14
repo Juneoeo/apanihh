@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Img/Icon_Header-removebg-preview.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sella!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="card">
+        <b><h1>Happy Birthday!</h1></b>
+        <b>
+            <h3>Happy 16th Birthday ya Sellaa!</h3>
+            <p>
+                selamat ulang tahun yang ke 16 tahun ya Sella, tak terasa sebentar lagi sudah mau punya ktp sendiri. 
+                oh ya, i know kado ulang tahunku ini mungkin tidak seperti yang kamu ekspektasikan, tapi i hope you like it.
+                i just want to let you know 
+                jangan sedih kalau orang lain mengata-ngatai kamu,
+                tetaplah bahagia, aku ngga mau melihat senyummu pudar karena kamu sedih, oh ya
+                i love listening to your voice when you talking to me, 
+                i really love your beautiful eyes, 
+                i love when you tell story about your life, 
+                i just cant say more how gorgeous you are in my eyes, 
+                but i just want to say kalau misalnya aku beruntung bisa bertemu kamu dalam hidupku, 
+                you are the first person yang bisa kasih tau aku apa itu artinya <em>ilove you</em> yang sebenarnya, 
+                mungkin terdengar alay tapi jujur aku mulai belajar seperti apa hubungan yang dewasa dari kamu, 
+                and last thing kamu worth it every penny in my life. thankyou!
+                <br><br>
+                i wish you always semangatt menjalani kehidupan. no matter what
+            </p>
+            <p class="muted">- junio -</p>
+        </b>
+        <a href="flower.html"><button onclick="">pencet akuu!</button></a>
+    </div>  
+    <div class="song">
+        <audio controls autoplay>
+        <source src="song/y2mate.com - HAPPY BIRTHDAY PIANO INSTRUMENTAL  by hsc501.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <script src="confetti.js"></script>
+    <script>
+    // start
+
+    const start = () => {
+        setTimeout(function() {
+            confetti.start()
+        }, 0); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+    };
+
+    //  Stop
+
+    const stop = () => {
+        setTimeout(function() {
+            confetti.stop()
+        }, 10000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+    };
+
+    start();
+    stop();
+    </script>
+</body>
+</html>

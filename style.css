@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #FFEADD;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background-color: #FCAEAE;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0 16px 20px rgba(0, 0, 0, 0.4);
+    width: 600px;
+    text-align: center;
+}
+.card h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: #C23373;
+    margin-bottom: 10px;
+    font-variant: initial;
+}
+.card h3 {
+    color: #E74646;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.card p {
+    color: #D14D72;
+    margin-bottom: 20px;
+}
+.card button {
+    background-color: #FF8989;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover {
+    background-color: #FF69B4;
+}
+.muted {
+    opacity: 80;
+}
+.song {
+    width: 0%;
+    height: 0vh;
+    opacity: 0%;
+}
